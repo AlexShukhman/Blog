@@ -1,10 +1,9 @@
-title: Stack Problems
-description: My Personal Stack Problems
-author: Agus Makmun
-github: https://github.com/agusmakmun
-about: I'm Programmer for Python & Django. I've made quite a few web apps, especially on Django.
-disqus_shortname: stackproblems
-google_analytics: UA-XXXXXXXX-Y
+title: Alex's Ideas
+description: Alex's personal blog and idea imporium
+author: Alex Shukhman
+github: https://github.com/alexshukhman
+about: I'm a developer with his head in the cloud...
+google_analytics: UA-107040958-6
 
 enableTags: true
 tagarray: []
@@ -15,30 +14,22 @@ collections:
     permalink: /project/:path/
 
 social:
-    - icon: fa-facebook
-      link: "#"
     - icon: fa-twitter
-      link: "#"
+      link: "https://twitter.com/alex_shukhman"
     - icon: fa-linkedin
-      link: "#"
-    - icon: fa-stack-exchange
-      link: "#"
+      link: "https://linkedin.com/in/alexshukhman"
     - icon: fa-github
-      link: "https://github.com/agusmakmun"
-
-share:
-  twitter_username: github.io
-  fb_appid: 1749788565247320
+      link: "https://github.com/alexshukhman"
 
 urls:
     - text: About Me
-      url: /about/
-    - text: My Projects
+      url: https://alexshukhman.com
+    - text: Project Links
       url: /projects/
     - text: XML Feed
       url: /feed.xml
 
-url: "https://agusmakmun.github.io"
+url: "https://ideas.alexshukhman.com"
 baseurl: ""
 paginate: 20
 per_page: 20
@@ -54,5 +45,5 @@ compress_html:
   endings: all
   ignore:
     envs: ['development']
-
+    
 theme: jekyll-theme-minimal
