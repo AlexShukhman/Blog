@@ -24,8 +24,10 @@ social:
 urls:
     - text: About Me
       url: https://alexshukhman.com
-    - text: Project Links
-      url: /projects/
+    # - text: Project Links
+    #   url: /projects/
+    - text: Template Source
+      url: https://github.com/agusmakmun/agusmakmun
     - text: XML Feed
       url: /feed.xml
 
