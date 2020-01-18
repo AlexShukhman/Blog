@@ -87,5 +87,7 @@ Members are not invited to the zeitgeist, they are accepted. That means that it 
 1. The engager connects with the socket hosting the protocol (see [above](#basic-infrastructure) for infrastructure details)
 2. The engager publishes an introductory message (just the subject portion of the SOVA)
 3. If the engager is accepted (acceptance protocol has not yet been defined), the SOT will publish a plaintext version of the model they have been maintaining, omitting only the pubKeys of the contributing members.
+4. At this point the member will send pubKey requests to each of the unknown members by sending Subject+Object procedure calls.
+5. Each member that accepts the engager's request will respond with a temporary-key-encrypted 
 
 ### Intuition
