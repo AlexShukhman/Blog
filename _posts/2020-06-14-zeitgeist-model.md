@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Zeitgeist Model"
-date:   2020-1-14
+date:   2020-6-14
 categories: [architecture]
 ---
 
