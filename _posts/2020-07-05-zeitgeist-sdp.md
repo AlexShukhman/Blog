@@ -40,4 +40,4 @@ Signals can still follow SOVA, but the initial connection with the SOT does requ
 
 ## Intuition
 
-The intention of the SOVA protocol is to minimize infrastructure by making the protocol more opinionated. Because it’s so much more simplified, it could make for a lower-weight alternative to the higher-level protocols like HTTP and can even act as a _lingua franca _protocol across connection types like Bluetooth, IP, radio, and Wifi tethering.
+The intention of the SOVA protocol is to minimize infrastructure by making the protocol more opinionated. Because it’s so much more simplified, it could make for a lower-weight alternative to the higher-level protocols like HTTP and can even act as a _lingua franca_ protocol across connection types like Bluetooth, IP, radio, and Wifi tethering.
