@@ -2,8 +2,10 @@
 layout: post
 title:  "The Zeitgeist Model"
 date:   2020-6-14
-categories: [architecture, zeitns]
+categories: [architecture, zeitns, deprecated]
 ---
+
+# _DEPRECATION NOTICE: As of Aug 24, 2020, this is no longer a valid description of the product._
 
 The most difficult portion of defining a secure, invisible, non-discoverable network is, frankly discovery. The Zeitgeist Model is a description of network architecture that attempts to describe such a potential P2P (peer to peer) network. A significant portion of this document discusses implementation of such a network and uses a fairly modern web-based protocol called WebRTC to handle message brokering. This can also be acheived leveraging other technology, WebRTC just happens to be a simple JavaScript-based solution for real-time peer-to-peer message brokering.
 

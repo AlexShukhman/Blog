@@ -2,8 +2,10 @@
 layout: post
 title:  "The Obscure Chat"
 date:   2020-1-14
-categories: [products, architecture, zeitns]
+categories: [products, architecture, zeitns, deprecated]
 ---
+
+# _DEPRECATION NOTICE: As of Aug 24, 2020, this is no longer a valid description of the product._
 
 I had this idea a few months ago and am only now having the opportunity to put it out there.
 
