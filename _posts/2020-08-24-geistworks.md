@@ -2,7 +2,7 @@
 layout: post
 title:  "GeistWorks' Three-Branch Model"
 date:   2020-8-24
-categories: [architecture, products]
+categories: [architecture, products, zeitns, dorso, zeithub]
 ---
 
 GeistWorks is an agglomeration of three different businesses with three different models, all with the same goal; to leverage the Zeitgeist Model and SOVA to re-evaluate what is possible to send over the internet. GeistWorks intends to take on the challenge of standardizing connections between servers, clients, peers, and connected devices.

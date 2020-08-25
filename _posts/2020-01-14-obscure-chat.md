@@ -2,7 +2,7 @@
 layout: post
 title:  "The Obscure Chat"
 date:   2020-1-14
-categories: [products, architecture]
+categories: [products, architecture, zeitns]
 ---
 
 I had this idea a few months ago and am only now having the opportunity to put it out there.
