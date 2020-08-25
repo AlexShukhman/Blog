@@ -2,8 +2,10 @@
 layout: post
 title:  "WebRTC’s SDP Implementation for Zeitgeist Model"
 date:   2020-7-5
-categories: [architecture, zeitns]
+categories: [architecture, zeitns, deprecated]
 ---
+
+# _DEPRECATION NOTICE: As of Aug 24, 2020, this is no longer a valid description of the product._
 
 Session Description Protocol or [SDP](https://webrtchacks.com/sdp-anatomy/) is a standardized format for describing a client session for peer-to-peer networks. It is the backbone for WebRTC’s connection handshake and can be Base64-encoded with no loss of functionality (this is useful for cross-platform “dead drops” of session descriptions). This article will attempt to apply SDP as a description of [zeitgeist](https://ideas.alexshukhman.com/architecture/2020/06/14/zeitgeist-model.html) member sessions.
 
