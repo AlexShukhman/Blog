@@ -2,7 +2,7 @@
 layout: post
 title:  "WebRTC’s SDP Implementation for Zeitgeist Model"
 date:   2020-7-5
-categories: [architecture, zeitns, deprecated]
+categories: [deprecated]
 ---
 
 # _DEPRECATION NOTICE: As of Aug 24, 2020, this is no longer a valid description of the product._
