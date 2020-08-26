@@ -5,7 +5,7 @@ date:   2020-8-25
 categories: [zeitns, architecture, products]
 ---
 
-_This is the most recently updated version of this product's description_
+_This is the most recently updated version of this product's description._
 
 The "Zeitgeist Model" encompasses the various technical descriptions required to make a peering connection using the SOVA protocol. The model is still in progress and is not feature-complete.
 
@@ -32,7 +32,7 @@ It can be simplified greatly and therein lies the flexibility of the infrastruct
 
 The subject and object of a SOVA packet can be described in two ways: using a ZeitToken (see below for more details on token-to-address conversion options), or using an address notation. The address notation is a series of bit pairs describing the node's (in this case, either the source client's or the destination client's) relation to the presiding nameserver. This can be optimized in future editions of the Zeitgeist Model. 
 
-All parent nodes may have only two child nodes (this is why the pseudo-node concept is valuable) so the left node will be described as [0,0] or 0 in base-4 whereas the right node will be described as [0,1] or 1 in base-4. The parent node will be described as [1,0] or 2 in base-4 and the [1,1] description may be used for clock mechanics. These pairs are valuable because the communication of SOVA can now be easily parallelized over traditional ethernet (Cat5+) cables. This address management solution makes next-hop calculations trivial_ but may require more work for optimizing pseudo-nodes_.
+All parent nodes may have only two child nodes (this is why the pseudo-node concept is valuable) so the left node will be described as [0,0] or 0 in base-4 whereas the right node will be described as [0,1] or 1 in base-4. The parent node will be described as [1,0] or 2 in base-4 and the [1,1] description may be used for clock mechanics. These pairs are valuable because the communication of SOVA can now be easily parallelized over traditional ethernet (Cat5+) cables. This address management solution makes next-hop calculations trivial _but may require more work for optimizing pseudo-nodes_.
 
 ### Verb
 
@@ -150,7 +150,7 @@ The concept of a ZeitToken is not yet well-defined. The options may include, but
 
 ## Routing/Pseudo-Nodes
 
-Routing should use binary tree logic. That is, a parent node (like a switch) should have at most two child nodes. The child nodes may be either real connections to actual hardware devices or virtualized _pseudo-nodes; each_ of these pseudo-nodes should have their own address locations and should have no functionality other than as pass-through nodes to their parents. 
+Routing should use binary tree logic. That is, a parent node (like a switch) should have at most two child nodes. The child nodes may be either real connections to actual hardware devices or virtualized _pseudo-nodes_; each of these pseudo-nodes should have their own address locations and should have no functionality other than as pass-through nodes to their parents. 
 
 Pseudo-nodes, like nodes, can have at most two child nodes. The denotation of "left" versus "right" nodes can be arbitrary until a better, more efficient system is in place. As most hardware connections are to be considered unstable, node and pseudo-node discovery and allocation (respectively) should be as lightweight as possible, favoring speed of allocation over the long-run efficiency.
 
