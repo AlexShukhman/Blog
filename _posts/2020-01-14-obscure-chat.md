@@ -2,7 +2,7 @@
 layout: post
 title:  "The Obscure Chat"
 date:   2020-1-14
-categories: [products, architecture, zeitns, deprecated]
+categories: [deprecated]
 ---
 
 # _DEPRECATION NOTICE: As of Aug 24, 2020, this is no longer a valid description of the product._
